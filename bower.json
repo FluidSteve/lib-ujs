@@ -1,0 +1,26 @@
+{
+  "name": "lib-ujs",
+  "description": "javascript utilities library",
+  "main": "index.html",
+  "authors": [
+    "FluidSteve <FluidSteve@users.noreply.github.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ujs",
+    "utilities"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "qunit": "^1.23.0"
+  }
+}

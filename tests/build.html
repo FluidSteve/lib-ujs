@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+
+    <title>lib-ujs BUILT VERSION QUnit Test Runner</title>
+
+
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/qunit/qunit/qunit.css" />
+    <!-- endbower -->
+
+    <!-- add any JS files under test (or put them in different .html files) -->
+    <script src='../dist/min/lib-ujs.min.js'></script>
+
+
+    <!-- bower:js -->
+    <script src="../bower_components/qunit/qunit/qunit.js"></script>
+    <!-- endbower -->
+
+    <!-- your tests, any and all to run with the given fixtures below -->
+    <script src='tests.utils.js'></script>
+    <script src='tests.dom.js'></script>
+
+
+</head>
+<body>
+
+<div id="qunit"></div> <!-- QUnit fills this with results, etc -->
+
+
+<div id='qunit-fixture'>
+
+    <!-- any HTML you want to be present in each test (will be reset for each test) -->
+
+</div>
+
+</body>
+</html>
